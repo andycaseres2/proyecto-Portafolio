@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Andy-Caseres" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <meta name="description" content="Portafolio" />
+  <meta name="keywords" content="html-css-diseño-web-crear-páginas-portafolio" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <img src="./image/logo.png" width="60" height="50px" alt="logo">
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="#inicio">Hola</a>
+          </li>
+          <li>
+            <a href="#proyectos">Proyectos</a>
+          </li>
+          <li>
+            <a href="#form">Hablemos</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#" class="button">Curriculum</a>
+    </header>
+    <section class="hero" id="inicio">
+      <div class="hero-img">
+        <img class="andy" src="./image/andy.jpeg" width="338px" height="330px" alt="andy">
+      </div>
+
+      <div id="inicio" class="hero-description">
+        <h1>
+          <span>¡Hola a todos!</span>
+          <span>Soy Andy</span>
+        </h1>
+        <p>Frontend Developer que le encanta Aprender é implementar diseños que inspiran y atraen a las personas.</p>
+        <div class="social">
+          <a class="button-icon" href="https://wa.link/m00ofz" target="___blank"><img src="./icons/icon-phone.svg"
+              alt=""></a>
+          <a class="button-icon" href="https://www.instagram.com/andycaseresxd/ " target="___blank"><img
+              src="./icons/icon-instagram.svg" alt=""></a>
+          <a class="button-icon" href="https://twitter.com/AndyWuilliam" target="___blank"><img
+              src="./icons/icon-twitter_squared.svg" alt=""></a>
+          <a class="button-icon" href="https://github.com/andycaseres2" target="___blank"><img
+              src="./icons/icon-github.svg" alt=""></a>
+        </div>
+        <a href="#" class="button hero-button">Descargar Curriculum</a>
+      </div>
+    </section>
+
+    <section class="msj-personal">
+      <div class="msj-personal-description">
+        <p>En mi corta carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e
+          increíbles para mi Aprendizaje..
+        </p>
+        <h3>Aquí hay algunos que me gustaría compartir.</h3>
+        <a href="#proyectos"><img class="msj-personal-img" src="./icons/icons-down.svg" alt=""></a>
+
+      </div>
+    </section>
+  </div>
+  <section id="proyectos" class="projects">
+    <div class="projects-img">
+      <img style="z-index: 1" class="img-mac" src="./image/💻  Macbook.png" alt="">
+      <img class="img-emilibethV" style="z-index: 300" src="./image/EmilibethV.png" alt="">
+      <img class=" img-iphone" src="./image/📱 Iphone X.png" alt="">
+      <img class="img-emilibethmobile" src="./image/emilibethVmobile.jpeg" alt="">
+    </div>
+    <div class="projects-description">
+      <h2 class="title">EmilibethV.com</h2>
+      <p>Esta es una landing page informativa que presenta los servios de uñas realizados en dicha tienda.</p>
+      <a href="https://github.com/andycaseres2/emilibethvweb.git" class="button is-secundary" target="___blank">Ver
+        Codigo</a>
+      <a href="https://emilibethvoficial.netlify.app/" target="___blank class=" button">En Proceso</a>
+    </div>
+  </section>
+  <section class="testimonio">
+    <img src="./image/fondo1024.jpg" alt="">
+    <h3>"Andy Gracias a tu buen trabajo con la pagina eh podido alcanzar nuevos clientes para mejorar mi negocio.
+      Gracias..!!!".</h3>
+    <p>EMILIBETH VILLASMIL / DUEÑA DE EMILIBETHV</p>
+  </section>
+
+  <section class="projects">
+    <div class="projects-img">
+      <img style="z-index: 1" class="img-ipad" src="./image/📱 iPad.png" alt="">
+      <img class="img-arepastore" style="z-index: 300" src="./image/arepastore.png" alt="">
+
+    </div>
+    <div class="projects-description2">
+      <h2 class="title">ArepaStore.com</h2>
+      <p>Local de venta de arepas. Esta pagina da a conocer los productos y el menu que ofrece a sus clientes y un poco
+        de su Historia.</p>
+      <a href="https://github.com/andycaseres2/ArepaStore.git" class="button is-secundary">Ver Codigo</a>
+      <a href="https://arepastoredemo.netlify.app/" target="__blank" class="button">En Proceso</a>
+  </section>
+
+  <section class="testimonio">
+    <img src="./image/Logo-ArepaStore_page-0001.jpg" alt="">
+    <h3>"Andy has sido de gran ayuda para mi negocio. Gracias al gran trabajo que estas haciendo eh alcanzado una gran
+      mejora en las ventas y alcanze de los clientes".</h3>
+    <p> WILSON / DUEÑO DE AREPA STORE</p>
+  </section>
+
+  <form id="form" class="form" action="https://formspree.io/f/moqywgdw" method="POST">
+    <h2 class="title">Hablemos</h2>
+    <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
+    <label class="label" for="name">Nombre Completo
+      <input class="input" required type="text" id="name" name="name" placeholder="Nombre Completo">
+    </label>
+    <label class="label" for="email">Correo Electronico
+      <input class="input" required type="email" id="email" name="email" placeholder="email@email.com">
+    </label>
+    <label class="label" for="message">Mensaje
+      <textarea class="input" required placeholder="Mensaje" name="message" id="message" cols="30" rows="5"></textarea>
+    </label>
+    <button class="button" type="submit">Enviar Mensaje</button>
+
+  </form>
+  <a href="mailto:Andycaseres2gmail.com" id="correo"></a>
+
+  <footer>
+    <img class="logo" src="./image/logo.png" width="60" height="50px" alt="logo">
+    <div class="social2">
+      <a class="button-icon" href="https://wa.link/m00ofz" target="___blank"><img src="./icons/icon-phone.svg"
+          alt=""></a>
+      <a class="button-icon" href="https://www.instagram.com/andycaseresxd/" target="___blank"><img
+          src="./icons/icon-instagram.svg" alt=""></a>
+      <a class="button-icon" href="https://twitter.com/AndyWuilliam" target="___blank"><img
+          src="./icons/icon-twitter_squared.svg" alt=""></a>
+      <a class="button-icon" href="https://github.com/andycaseres2" target="___blank"><img src="./icons/icon-github.svg"
+          alt=""></a>
+    </div>
+    <p>Andy Caseres. Copyright 2021 - Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="./js/App.js"></script>
+</body>
+
+</html>

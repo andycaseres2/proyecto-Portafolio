@@ -1,0 +1,74 @@
+.testimonio {
+  background: rgba(255, 255, 255, 0.281);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-block-end: 40px;
+  margin-block-start: 40px;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+}
+
+.testimonio h3 {
+  justify-content: left;
+  text-align: left;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  font-size: 16px;
+}
+
+.testimonio img {
+  width: 80px;
+  height: 80px;
+  margin-block-start: 40px;
+  border-radius: 100%;
+}
+
+.testimonio p {
+  text-align: left;
+  padding-inline-start: 20px;
+  padding-block-end: 20px;
+  font-weight: bold;
+  opacity: 50%;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonio {
+    margin-inline-end: 60px;
+    margin-inline-start: 60px;
+  }
+
+  .testimonio h3 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .testimonio {
+    margin-inline-end: 100px;
+    margin-inline-start: 100px;
+  }
+
+  .testimonio h3 {
+    text-align: center;
+    font: var(--headline4);
+    font-weight: 700;
+  }
+  .testimonio p {
+    font: var(--headline5);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .testimonio {
+    margin-inline-end: 150px;
+    margin-inline-start: 150px;
+  }
+
+  .testimonio h3 {
+    text-align: center;
+  }
+}

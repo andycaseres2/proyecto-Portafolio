@@ -1,0 +1,521 @@
+.projects {
+  margin-block-end: 40px;
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 20px;
+}
+
+.projects-description {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-block-start: 20px;
+  padding-inline-end: 10px;
+  padding-block-end: 20px;
+}
+.projects-description2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-block-start: 40px;
+  padding-inline-end: 10px;
+  padding-block-end: 20px;
+}
+
+.projects p {
+  font: var(--body1);
+}
+
+@media screen and (min-width: 375px) {
+  .projects {
+    margin-block-end: 40px;
+  }
+  .img-mac {
+    width: 330px;
+  }
+  .img-iphone {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    bottom: 300px;
+    z-index: 400;
+    right: 10px;
+  }
+
+  .img-emilibethV {
+    width: 250px;
+    height: 160px;
+    position: relative;
+    bottom: 200px;
+    left: 40px;
+    border-radius: 5px;
+  }
+
+  .img-emilibethmobile {
+    width: 73px;
+    height: 130px;
+    position: relative;
+    bottom: 310px;
+    z-index: 500;
+    right: 100px;
+    border-radius: 4px;
+  }
+  .projects-img {
+    height: 250px;
+  }
+  .img-ipad {
+    width: 380px;
+    height: 260px;
+    position: relative;
+    right: 40px;
+  }
+  .img-arepastore {
+    width: 230px;
+    height: 225px;
+    position: relative;
+    bottom: 252px;
+    left: 35px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .img-mac {
+    width: 330px;
+  }
+  .img-iphone {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    bottom: 160px;
+    z-index: 400;
+    right: 270px;
+  }
+
+  .img-emilibethV {
+    width: 250px;
+    height: 160px;
+    position: relative;
+    bottom: 200px;
+    left: 40px;
+    border-radius: 5px;
+  }
+
+  .img-emilibethmobile {
+    width: 73px;
+    height: 130px;
+    position: relative;
+    bottom: 308px;
+    z-index: 500;
+    right: 2px;
+    border-radius: 4px;
+  }
+  .projects-img {
+    height: 250px;
+  }
+  .img-ipad {
+    width: 380px;
+    height: 280px;
+    position: relative;
+    right: 20px;
+  }
+  .img-arepastore {
+    width: 230px;
+    height: 245px;
+    position: relative;
+    bottom: 272px;
+    left: 55px;
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 650px) {
+  .projects {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img-mac {
+    width: 330px;
+    position: relative;
+    top: 100px;
+  }
+  .img-iphone {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    bottom: 200px;
+    z-index: 400;
+    right: 5px;
+  }
+
+  .img-emilibethV {
+    width: 250px;
+    height: 160px;
+    position: relative;
+    bottom: 100px;
+    left: 40px;
+    border-radius: 5px;
+  }
+
+  .img-emilibethmobile {
+    width: 73px;
+    height: 130px;
+    position: relative;
+    bottom: 210px;
+    z-index: 500;
+    right: 96px;
+    border-radius: 4px;
+  }
+  .projects-img {
+    height: 250px;
+  }
+  .img-ipad {
+    width: 380px;
+    height: 300px;
+    position: relative;
+    top: 40px;
+    right: 20px;
+  }
+  .img-arepastore {
+    width: 230px;
+    height: 265px;
+    position: relative;
+    bottom: 255px;
+    left: 55px;
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .projects {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img-mac {
+    width: 330px;
+    position: relative;
+    top: 100px;
+  }
+  .img-iphone {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    bottom: 200px;
+    z-index: 400;
+    right: 5px;
+  }
+
+  .img-emilibethV {
+    width: 250px;
+    height: 160px;
+    position: relative;
+    bottom: 100px;
+    left: 40px;
+    border-radius: 5px;
+  }
+
+  .img-emilibethmobile {
+    width: 73px;
+    height: 130px;
+    position: relative;
+    bottom: 210px;
+    z-index: 500;
+    right: 96px;
+    border-radius: 4px;
+  }
+  .projects-img {
+    height: 250px;
+  }
+  .img-ipad {
+    width: 380px;
+    height: 300px;
+    position: relative;
+    top: 60px;
+    right: 20px;
+  }
+  .img-arepastore {
+    width: 230px;
+    height: 255px;
+    position: relative;
+    bottom: 235px;
+    left: 55px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-ipad {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+  }
+  .img-arepastore {
+    width: 280px;
+    height: 330px;
+    position: relative;
+    bottom: 350px;
+    left: 135px;
+    border-radius: 5px;
+  }
+  .img-mac {
+    width: 600px;
+    position: relative;
+    top: 0;
+    left: 0px;
+  }
+  .img-iphone {
+    width: 160px;
+    height: 220px;
+    position: relative;
+    bottom: 540px;
+    z-index: 400;
+    left: 10px;
+  }
+
+  .img-emilibethV {
+    width: 450px;
+    height: 300px;
+    position: relative;
+    bottom: 365px;
+    left: 73px;
+    border-radius: 5px;
+  }
+
+  .img-emilibethmobile {
+    width: 120px;
+    height: 185px;
+    position: relative;
+    bottom: 557px;
+    z-index: 500;
+    left: -134px;
+    border-radius: 4px;
+  }
+
+  .projects-description2 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-block-start: 40px;
+    padding-inline-end: 100px;
+    padding-inline-start: 100px;
+    padding-block-end: 20px;
+  }
+  .projects-description {
+    position: relative;
+    bottom: 40px;
+  }
+  .projects-description h2 {
+    font: var(--headline4);
+  }
+  .projects-description2 h2 {
+    font: var(--headline4);
+  }
+}
+@media screen and (min-width: 1050px) {
+  .img-ipad {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+  }
+  .img-arepastore {
+    width: 280px;
+    height: 330px;
+    position: relative;
+    bottom: 350px;
+    left: 135px;
+    border-radius: 5px;
+  }
+  .img-mac {
+    width: 600px;
+    position: relative;
+    top: 0;
+    left: 0px;
+  }
+  .img-iphone {
+    width: 160px;
+    height: 220px;
+    position: relative;
+    bottom: 540px;
+    z-index: 400;
+    left: 10px;
+  }
+
+  .img-emilibethV {
+    width: 450px;
+    height: 300px;
+    position: relative;
+    bottom: 365px;
+    left: 73px;
+    border-radius: 5px;
+  }
+
+  .img-emilibethmobile {
+    width: 120px;
+    height: 185px;
+    position: relative;
+    bottom: 557px;
+    z-index: 500;
+    left: -134px;
+    border-radius: 4px;
+  }
+
+  .projects-description2 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-block-start: 40px;
+    padding-inline-end: 100px;
+    padding-inline-start: 100px;
+    padding-block-end: 20px;
+  }
+  .projects-description {
+    position: relative;
+    bottom: 40px;
+  }
+  .projects-description h2 {
+    font: var(--headline4);
+  }
+  .projects-description2 h2 {
+    font: var(--headline4);
+  }
+}
+@media screen and (min-width: 1366px) {
+  .projects-description {
+    margin-inline-end: 100px;
+    position: relative;
+    right: 40px;
+  }
+  .img-iphone {
+    width: 160px;
+    height: 220px;
+    position: relative;
+    bottom: 540px;
+    z-index: 400;
+    left: 10px;
+  }
+
+  .img-emilibethmobile {
+    width: 120px;
+    height: 185px;
+    position: relative;
+    bottom: 560px;
+    z-index: 500;
+    left: -135px;
+    border-radius: 4px;
+  }
+  .img-ipad {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    top: 10px;
+    left: 120px;
+  }
+  .img-arepastore {
+    width: 280px;
+    height: 330px;
+    position: relative;
+    bottom: 370px;
+    left: 205px;
+    border-radius: 5px;
+  }
+  .projects-description2 {
+    width: 40%;
+    position: relative;
+    right: 50px;
+  }
+  .projects-img {
+    position: relative;
+    left: 70px;
+  }
+
+  .img-emilibethmobile {
+  }
+}
+@media screen and (min-width: 1440px) {
+  .projects-description {
+    margin-inline-end: 100px;
+    position: relative;
+    right: 40px;
+  }
+  .img-ipad {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    top: 10px;
+    left: 120px;
+  }
+  .img-arepastore {
+    width: 280px;
+    height: 330px;
+    position: relative;
+    bottom: 370px;
+    left: 205px;
+    border-radius: 5px;
+  }
+  .projects-description2 {
+    width: 40%;
+    position: relative;
+    right: 50px;
+  }
+  .projects-img {
+    position: relative;
+    left: 70px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .projects-description {
+    margin-inline-end: 100px;
+  }
+  .img-ipad {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    top: -10px;
+  }
+  .img-arepastore {
+    width: 280px;
+    height: 330px;
+    position: relative;
+    bottom: 55px;
+    left: -250px;
+    border-radius: 5px;
+  }
+  .img-mac {
+    width: 600px;
+    position: relative;
+    top: 0;
+    left: 200px;
+  }
+  .img-iphone {
+    width: 160px;
+    height: 220px;
+    position: relative;
+    bottom: 250px;
+    z-index: 400;
+    left: 200px;
+  }
+
+  .img-emilibethV {
+    width: 450px;
+    height: 300px;
+    position: relative;
+    bottom: 55px;
+    left: -330px;
+    border-radius: 5px;
+  }
+
+  .img-emilibethmobile {
+    width: 120px;
+    height: 185px;
+    position: relative;
+    bottom: 266px;
+    z-index: 500;
+    left: 56px;
+    border-radius: 4px;
+  }
+}

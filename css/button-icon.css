@@ -1,0 +1,19 @@
+.button-icon {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid var(--black);
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+}
+
+.button-icon > img {
+  vertical-align: middle;
+}
+
+.button-icon:hover {
+  background-color: var(--black);
+}

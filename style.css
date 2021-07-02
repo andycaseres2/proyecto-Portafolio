@@ -1,0 +1,67 @@
+@import "./css/button.css";
+@import "./css/header.css";
+@import "./css/button-icon.css";
+@import "./css/hero.css";
+@import "./css/wrapper.css";
+@import "./css/menu.css";
+@import "./css/msjPersonal.css";
+@import "./css/testimonio.css";
+@import "./css/project.css";
+@import "./css/social.css";
+@import "./css/footer.css";
+@import "./css/form.css";
+@import "./css/title.css";
+
+:root {
+  --fontBase: "Poppins", sans-serif;
+
+  --headline1: bold 95px / 154px var(--fontBase);
+
+  --headline2: bold 59px / 96px var(--fontBase);
+
+  --headline3: bold 48px / 78px var(--fontBase);
+
+  --headline4: normal 34px / 55px var(--fontBase);
+
+  --headline5: bold 24px / 39px var(--fontBase);
+
+  --body1: normal 16px / 26px var(--fontBase);
+
+  --body2: normal 14px / 22px var(--fontBase);
+  --button: bold 14px / 23px var(--fontBase);
+  --caption: normal 12px / 20px var(--fontBase);
+
+  --gradiant: linear-gradient(
+      to bottom,
+      rgba(34, 32, 32, 0.15) 0%,
+      rgba(0, 0, 0, 0.205) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  --purple: #5639a0;
+  --green: #42e2b8;
+  --white: #fff;
+  --black: #000000;
+  --border: #858c94;
+  --gradiant-orange: linear-gradient(135deg, #fad7a1 0%, #e96d71 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--gradiant);
+  background-repeat: no-repeat;
+  min-block-size: 100vh;
+  font: var(--body1);
+}
+
+.andy {
+  border-radius: 10px;
+}

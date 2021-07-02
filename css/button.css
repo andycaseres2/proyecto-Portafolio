@@ -1,0 +1,41 @@
+.button {
+  background: var(--black);
+  color: var(--white);
+  font: var(--button);
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 13px;
+  padding-block-end: 13px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.button.is-secundary {
+  background-color: transparent;
+  border: 2px solid var(--black);
+  color: var(--black);
+}
+
+.button.is-secundary:hover {
+  border: 2px solid var(--white);
+  color: var(--white);
+}
+@media screen and (min-width: 768px) {
+  .hero-button {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-button {
+    width: 50%;
+  }
+}

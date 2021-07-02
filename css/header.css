@@ -1,0 +1,12 @@
+.header {
+  z-index: 999;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  block-size: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backdrop-filter: blur(10px);
+}

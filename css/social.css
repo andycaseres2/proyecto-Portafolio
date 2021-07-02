@@ -1,0 +1,31 @@
+.social {
+  padding-block-end: 24px;
+  display: flex;
+  gap: 16px;
+}
+.social2 {
+  padding-block-end: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .social {
+    gap: 10px;
+  }
+  .social2 {
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .social {
+    position: relative;
+    gap: 10px;
+  }
+  .social2 {
+    position: relative;
+    gap: 10px;
+    left: 30px;
+  }
+}
